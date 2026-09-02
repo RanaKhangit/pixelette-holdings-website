@@ -10,8 +10,6 @@ build/
 dist/
 
 # Environment — never commit a value, only env.example with NAMES
-.env
-.env.local
 .env.*.local
 
 # Logs and caches
@@ -24,7 +22,6 @@ yarn-error.log*
 next-env.d.ts
 
 # Editor and OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
@@ -39,3 +36,4 @@ desktop.ini
 
 # Palette comparison output (Phase B decision instrument, regenerated on demand)
 .palette/
+config.bat
